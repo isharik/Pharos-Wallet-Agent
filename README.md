@@ -126,6 +126,8 @@ Add your demo video or screenshots here.
 
 ## Notes
 
+The AI-generated summary is processed locally on my computer. To generate your own wallet summaries, you’ll need to run the project on your local machine by setting up the localhost environment and installing the required dependencies through the terminal.
+
 This project was built as part of the Pharos Agent Center Skill Builder Campaign.
 
 I spent several days researching SDK integrations, AI wallet summarization, and building a clean beginner-friendly experience.
@@ -136,4 +138,4 @@ The goal was to build something simple, useful, and practical instead of making 
 
 ## Author
 
-Built by Shariq Hussain for the Pharos Builder Community.
+Built by Sharik AKA Echo on Discord for the Pharos Builder Community.
