@@ -108,8 +108,7 @@ app/
 ---
 
 ## Demo
-
-Add your demo video or screenshots here.
+Check that out on my X @isharik99 :).
 
 ---
 
