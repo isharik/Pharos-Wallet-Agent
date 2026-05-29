@@ -1,36 +1,139 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Pharos Wallet Agent
 
-## Getting Started
+An AI-powered wallet analysis Skill built for the Pharos Agent Center Skill Builder Campaign.
 
-First, run the development server:
+## Overview
+
+Pharos Wallet Agent allows users to enter a wallet address and receive a simple AI-generated explanation of wallet activity, balances, and onchain interactions.
+
+The goal of this project was to make blockchain wallet analysis easier to understand for normal users instead of showing raw blockchain data.
+
+The project combines:
+
+* Alchemy SDK for onchain data
+* OpenAI for AI-generated summaries
+* Next.js for the frontend and backend
+
+---
+
+## Features
+
+* Wallet balance analysis
+* AI-generated wallet summaries
+* Beginner-friendly interface
+* Fast onchain data fetching
+* Simple and clean UI
+* Pharos-themed frontend
+
+---
+
+## Tech Stack
+
+* Next.js
+* TypeScript
+* Tailwind CSS
+* Alchemy SDK
+* OpenAI API
+
+---
+
+## How It Works
+
+1. User enters a wallet address
+2. The app fetches wallet token balances using Alchemy
+3. Wallet data is processed
+4. OpenAI generates a simple readable summary
+5. The summary is displayed inside the UI
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone YOUR_GITHUB_REPO_LINK
+```
+
+Open the project:
+
+```bash
+cd pharos-wallet-agent
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Environment Variables
 
-To learn more about Next.js, take a look at the following resources:
+Create a `.env.local` file in the project root:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```env
+ALCHEMY_API_KEY=your_alchemy_api_key
+OPENAI_API_KEY=your_openai_api_key
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## Project Structure
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+app/
+ ├── api/
+ │    └── analyze/
+ │         └── route.ts
+ ├── components/
+ │    └── Header.tsx
+ ├── page.tsx
+ └── globals.css
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## Demo
+
+Add your demo video or screenshots here.
+
+---
+
+## Future Improvements
+
+* Multi-wallet analysis
+* Transaction history summaries
+* Better AI insights
+* Portfolio analytics
+* Real-time Pharos ecosystem tracking
+* Improved UI animations
+
+---
+
+## Notes
+
+This project was built as part of the Pharos Agent Center Skill Builder Campaign.
+
+I spent several days researching SDK integrations, AI wallet summarization, and building a clean beginner-friendly experience.
+
+The goal was to build something simple, useful, and practical instead of making another NFT-style showcase project.
+
+---
+
+## Author
+
+Built by Shariq Hussain for the Pharos Builder Community.
