@@ -4,6 +4,9 @@ An AI-powered wallet analysis Skill built for the Pharos Agent Center Skill Buil
 
 ## Overview
 
+
+(Important : Before you try to run the app yu might want to configure your api keys and chroma db properly so that no error persists , i haven't made the site public yet as its still wip , after i deploy the site and make the data locally available , you can easily test it out till then keep open sourcing )
+
 Pharos Wallet Agent allows users to enter a wallet address and receive a simple AI-generated explanation of wallet activity, balances, and onchain interactions.
 
 The goal of this project was to make blockchain wallet analysis easier to understand for normal users instead of showing raw blockchain data.
